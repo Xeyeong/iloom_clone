@@ -2,7 +2,8 @@
 *.class
 
 # manifest.mf
-# .MF
+*.MF
+
 # Log file
 *.log
 
