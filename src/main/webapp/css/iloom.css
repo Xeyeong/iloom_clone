@@ -4,15 +4,43 @@
 	--base-text-color : #333;
 	--base-bg-color : #f1f1f1;
 }
+
 *{
 	margin: 0;
 	padding: 0;
+	list-style : none;
+	text-decoration: none;	
+	letter-spacing : -1.5px;
 }
 body {
 	font : 16px/1.6 "Noto Sans Kr", sans-serif;
-	color : #333;
+	color : ver(--base-text-color )
+	}
+
+a, a:link{
+	text-decoration: none;
+	color : 
+}
+.header-wrap{
+		max-width: 90%;
+		height : 60px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+ul {
+	display: flex;
+	column-gap: 1.5rem;
 }
 
-ul {
-	list-style : none;
+.d-none{
+	display: none;
 }
+
+#imgs{
+	position: absolute;
+}
+
+
