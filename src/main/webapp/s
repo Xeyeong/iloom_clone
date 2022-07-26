@@ -1,0 +1,70 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 65e48b6..c9449f1 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,10 +1,60 @@[m
+ <!doctype html>[m
+ <html lang="ko">[m
+ <head>[m
+[31m-	<meta charset="UTF-8" />[m
+[31m-	<title>일룸 클론코딩</title>[m
+[32m+[m[32m<meta charset="UTF-8" >[m
+[32m+[m[32m<meta name="viewport" content="width=device-width, initial-scale=1.0, >[m
+[32m+[m[32m<link rel="preconnect" href="https://fonts.googleapis.com">[m
+[32m+[m[32m<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[32m+[m[32m<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">[m
+[32m+[m[32m<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />[m
+[32m+[m[32m<link rel="stylesheet" href="css/iloom.css" />[m
+[32m+[m[32m<title>iloom clone</title>[m
+ </head>[m
+ <body>[m
+[31m-	[m
+[32m+[m	[32m<header>[m
+[32m+[m		[32m<div class="header-ul">[m
+[32m+[m			[32m<nav class="main-nav">[m
+[32m+[m				[32m<ul class="">[m
+[32m+[m					[32m<li><a href="#">침실</a></li>[m
+[32m+[m					[32m<li><a href="#">거실</a></li>[m
+[32m+[m					[32m<li><a href="#">주방</a></li>[m
+[32m+[m					[32m<li><a href="#">키즈룸</a></li>[m
+[32m+[m					[32m<li><a href="#">학생방</a></li>[m
+[32m+[m					[32m<li><a href="#">서재</a></li>[m
+[32m+[m					[32m<li><a href="#">펫</a></li>[m
+[32m+[m					[32m<li><a href="#">시리즈</a></li>[m
+[32m+[m					[32m<li><a href="#">아울렛</a></li>[m
+[32m+[m				[32m</ul>[m
+[32m+[m			[32m</nav>[m
+[32m+[m		[32m</div>[m
+[32m+[m		[32m<div class="main-logo"><a href="#">[m
+[32m+[m			[32m<img src="img/gnb_logo.png" alt="logo" />[m
+[32m+[m		[32m</a></div>[m
+[32m+[m		[32m<div class="mainlinks">[m
+[32m+[m			[32m<ul id="items">[m
+[32m+[m				[32m<li><a href="#">이벤트</a></li>[m
+[32m+[m				[32m<li><a href="#">로그인</a></li>[m
+[32m+[m				[32m<li><a href="#">회원가입</a></li>[m
+[32m+[m				[32m<li><a href="#">주문/배송</a></li>[m
+[32m+[m				[32m<li><a href="#">고객지원</a></li>[m
+[32m+[m				[32m<li><a href="#">매장안내</a></li>[m
+[32m+[m				[32m<li><a href="#">검색아이콘</a></li>[m
+[32m+[m				[32m<li><a href="#">장바구니아이콘</a></li>[m
+[32m+[m			[32m</ul>[m
+[32m+[m		[32m</div>[m
+[32m+[m	[32m</header>[m
+ </body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[32m+[m[32m</html>[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
+[41m+[m
