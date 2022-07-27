@@ -14,12 +14,11 @@
 }
 body {
 	font : 16px/1.6 "Noto Sans Kr", sans-serif;
-	color : ver(--base-text-color )
 	}
 
 a, a:link{
 	text-decoration: none;
-	color : 
+	color : ver(--base-text-color )
 }
 .header-wrap{
 		max-width: 90%;
@@ -28,19 +27,25 @@ a, a:link{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		
 	}
 ul {
 	display: flex;
 	column-gap: 1.5rem;
+	
 }
-
+.pd{
+	padding: 0;
+	
+}
 .d-none{
 	display: none;
 }
 
-#imgs{
+#imgs img{
 	position: absolute;
+	width: 1920px;
 }
 
-
+.mainlinks{
+	box-shadow: 10px 10px 2px #888888;
+	}
