@@ -28,7 +28,7 @@ a, a:link{
 		justify-content: space-between;
 		align-items: center;
 	}
-ul {
+.header-wrap ul {
 	display: flex;
 	column-gap: 1.5rem;
 	
@@ -49,3 +49,8 @@ ul {
 .mainlinks{
 	box-shadow: 10px 10px 2px #888888;
 	}
+	
+.recommend{
+	
+}
+	
