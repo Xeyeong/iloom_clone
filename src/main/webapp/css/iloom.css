@@ -20,6 +20,18 @@ a, a:link{
 	text-decoration: none;
 	color : ver(--base-text-color )
 }
+/* ============ bxslider style custom ============ */
+.bx-wrapper {
+	border : 0;
+}
+ .bx-wrapper .bx-prev {
+    left: 10px;
+    background: url('../img/custom.png') 0 -32px no-repeat;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url('../img/custom.png') -43px -32px no-repeat;
+}
 .header-wrap{
 		max-width: 90%;
 		height : 60px;
@@ -42,8 +54,8 @@ a, a:link{
 }
 
 #imgs img{
-	position: absolute;
 	width: 1920px;
+	z-index: 300;
 }
 
 .mainlinks{
