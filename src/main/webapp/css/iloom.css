@@ -23,6 +23,7 @@ a, a:link{
 /* ============ bxslider style custom ============ */
 .bx-wrapper {
 	border : 0;
+	margin-top: 60px;
 }
  .bx-wrapper .bx-prev {
     left: 10px;
@@ -40,6 +41,14 @@ a, a:link{
 		justify-content: space-between;
 		align-items: center;
 	}
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw; /* 100%와 같은 비율, 공간을 100개로 조각낸 비율 */
+	z-index: 10000;
+	background : white;
+}
 .header-wrap ul {
 	display: flex;
 	column-gap: 1.5rem;
