@@ -72,6 +72,27 @@ header{
 	}
 	
 .recommend{
-	
+	max-width: 1280px;
+	margin: 0 auto;
 }
-	
+.rec_title{
+	font-weight: 900;
+	text-align: center;
+	margin: 1.5em 0 1.2em 0;
+}
+.rec_list{
+	display: flex;
+	column-gap: .5rem;
+}
+.rec_list img {
+	width: 213px;	
+}
+.price{
+	color : #faa385;
+}
+
+
+
+
+
+
