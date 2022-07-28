@@ -3,6 +3,7 @@
 ## 부제 : 일룸 웹사이트 클론코딩 프로젝트
 
 일룸 웹사이트 클론 코딩(일주일) 미니 프로젝트 입니다. 결과 화면을 보실려면 [여기](https://Xeyeong.github.io/iloom_clone/src/main/webapp)를 클릭하세요!
+<a href="https://www.google.com/" target="_blank">새 탭에서 열기</a>
 [일룸메인]()
 ## 목표
 
