@@ -210,17 +210,42 @@ header{
 	justify-content: space-between;
 }
 
-.sns{
-	background: #e8e8e8;
-	max-width : 1280px;
+/* aside */
+
+aside{
+	background: #e0e0e0;
+	margin: 0 auto;
+}
+.sns p{
+	text-align: center;
+}
+.sns p:nth-child(1){
+	font-size: 1.750em;
+	text-transform: uppercase;
+	margin: 1em 0;
+}
+.sns p:nth-child(2){
+	font-size: 1.250em;
+}
+.sns-posts{
+	display: flex;
 }
 
-.sns ul {
-	width: 100px;
-	height: 100px;
-	margin: 0 auto;
-	
+.sns-posts img{
+	width: 280px;
+	height: 280px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
